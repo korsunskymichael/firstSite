@@ -1,0 +1,245 @@
+html, body {
+width: 100%;
+height: 60%;
+}
+
+.background-image{
+    background-image: url("images/emoji.jpg");
+    height: 490%;
+    background-position: center;
+    background-size: auto;
+}
+ 
+.main-page-image {
+    display: block;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-music-video-left{
+    padding-left:49%
+}
+
+.main-music-video-right{
+    padding-left:34%
+}
+
+h1 {
+    background-color:#FC4B26;
+    color:white;
+    font-size: 40px; 
+    margin: 0; 
+}
+
+.user-name-michael {
+    background-color: lightblue;
+    color:white;
+    border: 3px solid white;
+    text-decoration: underline white;
+    text-align: center;
+    padding: 10px;
+    width:15%;
+    margin: auto;
+    border-bottom-right-radius: 65px;
+    border-bottom-left-radius: 65px;
+    border-top-right-radius: 65px;
+    border-top-left-radius: 65px;
+    box-shadow: 5px 10px lightgrey;
+}
+
+.user-name-matan {
+    background-color:lightblue;
+    color:black;
+    border: 3px solid black;
+    text-decoration: underline black;
+    text-align: center;
+    padding: 10px;
+    width:30%;
+    margin: auto;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.user-youtube-song {
+    display: block;
+    margin-left: auto;
+    margin-right: 5%;  
+}
+ 
+.user-image-michael {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 32.5%;
+}
+
+.user-image-michael:hover {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 32%;  
+    transform: scaleX(-1);  
+}
+
+.user-image-matan{
+    display: block;
+    margin-left: 35%;
+    margin-right: auto;
+    width: 30%;
+}
+
+.image-description-cover-matan {
+    background-color:LightGrey;
+    color:black;
+    border: 3px solid black;
+    text-align: center;
+    width:8%;
+    padding: 10px;
+    margin: auto;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+
+}
+
+.text-intro-michael {
+    border: 3px solid black;
+    text-align: center;
+    background-color: lightgrey;
+    padding: 10px;
+    width: 30%;
+    margin:auto;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    opacity: 0.3;
+}
+
+.text-intro-michael:hover {
+    opacity: 1.0;
+} 
+
+.text-intro-matan {
+    border: 3px solid black;
+    text-align: center;
+    background-color: lightgrey;
+    padding: 10px;
+    width: 30%;
+    margin:auto;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+
+.favorite-table-michael {
+    width: 50%; 
+    margin: auto;
+    opacity: 0.3;   
+}
+
+
+.favorite-table-michael:hover {
+    opacity:1.0;
+}
+
+.favorite-table-matan {
+    width: 50%; 
+    margin: auto;  
+}
+
+td {
+    border: 3px solid black;
+    text-align: center;
+    padding: 10px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+td:nth-child(1) {
+    text-decoration: underline black; 
+}
+
+tr {
+    background-color: lightgrey;
+}
+
+.link {
+    color:black;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.link:hover {
+    color:white;
+    font-weight: 900;
+}
+
+.rotated {
+    animation: rotation 10s infinite linear;
+    text-align: center;
+    font-size:70px;
+    margin-left: 15%;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+    transform: rotate(359deg);
+    }
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: grey;
+}
+
+.topnav a{
+    float: left;
+    color: lightgrey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: black;
+    color: white;
+}
+
+.leftcolumn {   
+    float: left;
+    width: 40%;
+}
+
+.rightcolumn {
+    float: right;
+    width: 60%;
+}
+
+.left-space {
+    margin-top: 350px;
+}
+
+.right-space {
+    margin-top: 250px;
+}
+
+
+
