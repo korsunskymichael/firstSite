@@ -183,14 +183,31 @@ tr {
     font-weight: 900;
 }
 
-.rotated {
-    animation: rotation 10s infinite linear;
+.rotated-left {
+    animation: rotation-right 10s infinite linear;
     text-align: center;
     font-size:70px;
     margin-left: 15%;
 }
 
-@keyframes rotation {
+
+.rotated-right {
+    animation: rotation-left 10s infinite linear;
+    text-align: center;
+    font-size:70px;
+    margin-left: 15%;
+}
+
+@keyframes rotation-right {
+    from {
+        transform: rotate(359deg);
+    }
+    to {
+    transform: rotate(0deg);
+    }
+}
+
+@keyframes rotation-left {
     from {
         transform: rotate(0deg);
     }
