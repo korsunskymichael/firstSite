@@ -48,21 +48,6 @@ h1 {
     box-shadow: 5px 10px lightgrey;
 }
 
-.user-name-matan {
-    background-color:lightblue;
-    color:black;
-    border: 3px solid black;
-    text-decoration: underline black;
-    text-align: center;
-    padding: 10px;
-    width:30%;
-    margin: auto;
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
-}
-
 .user-youtube-song {
     display: block;
     margin-left: auto;
@@ -84,28 +69,6 @@ h1 {
     transform: scaleX(-1);  
 }
 
-.user-image-matan{
-    display: block;
-    margin-left: 35%;
-    margin-right: auto;
-    width: 30%;
-}
-
-.image-description-cover-matan {
-    background-color:LightGrey;
-    color:black;
-    border: 3px solid black;
-    text-align: center;
-    width:8%;
-    padding: 10px;
-    margin: auto;
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
-
-}
-
 .text-intro-michael {
     border: 3px solid black;
     text-align: center;
@@ -124,34 +87,14 @@ h1 {
     opacity: 1.0;
 } 
 
-.text-intro-matan {
-    border: 3px solid black;
-    text-align: center;
-    background-color: lightgrey;
-    padding: 10px;
-    width: 30%;
-    margin:auto;
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
-}
-
-
 .favorite-table-michael {
     width: 50%; 
     margin: auto;
     opacity: 0.3;   
 }
 
-
 .favorite-table-michael:hover {
     opacity:1.0;
-}
-
-.favorite-table-matan {
-    width: 50%; 
-    margin: auto;  
 }
 
 td {
